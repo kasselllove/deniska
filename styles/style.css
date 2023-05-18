@@ -1,0 +1,196 @@
+.header{
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(130, 130, 130, 1);
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(130, 130, 130, 1);
+}
+
+.active{
+    color: rgba(7, 7, 7, 1);
+    font-weight: 700;
+}
+
+.hero{
+    padding: 40px 0 104px;
+}
+
+.deniskas-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+.fullname{
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.switchers{
+    transform: rotate(-90deg);
+    color: rgba(130, 130, 130, 1);
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+
+.about-me{
+    background-color: #F6F6F6;
+    padding: 120px 0 107px;
+    text-align: center;
+}
+
+.about-me-header{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.about-me-text:not(:last-child){
+    margin-bottom: 45px;
+}
+
+.skills{
+    padding: 91px 0 110px;
+    text-align: center;
+}
+
+.skills-header{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 69px;
+}
+
+.skills p {
+    margin-bottom: 83px;
+}
+
+.skills-programs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-program{
+    width: 20%;
+}
+
+.skill-program p{
+    color: #828282;
+    font-size: 14px;
+    margin: 40px 0 24px;
+}
+
+.skill-program .figma{
+    margin: 40px 0;
+}
+
+.portfolio{
+    padding: 112px 0 96px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.portfolio-header{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 47px;
+}
+
+.portfolio-ex:not(:last-child){
+    margin-bottom: 99px;
+}
+
+.portfolio-ex img{
+    margin-bottom: 44px;
+}
+
+.portfolio-ex a{
+    text-decoration: underline;
+}
+
+.footer{
+    padding: 114px 0 123px;
+    text-align: center;
+}
+
+.footer h4{
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.send-msg{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin: 29px 0 85px;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.contact-icons a{
+    display: flex;
+}
+
+.contact-icons a:not(:last-child){
+    margin-right: 61px;
+}
+
+.footer-text{
+    color: rgba(130, 130, 130, 1);
+    font-size: 14px;
+}
+
+.menu-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 1000;
+    overflow: hidden;
+    position: absolute;
+    right: 29px;
+    top: 20px;
+
+}
+
+.menu-btn span {
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    transition: all 0.5s;
+
+}
+.menu-btn span:nth-of-type(2) {
+    top: calc(50% - 9px);
+}
+.menu-btn span:nth-of-type(3) {
+    top: calc(50% + 9px);
+}
+
+.menu-btn{
+    display: none;
+    margin-left: auto;
+}
+
+.menu-btn.active{
+    position: fixed;
+    right: 20px;
+}
+
+.denis-mb{
+    display: none;
+}
